@@ -380,11 +380,12 @@ li {
   display: -ms-inline-flexbox;
   display: inline-flex;
   float: right;
-  width: 34rem;
-  margin-right: 1rem;
-  -webkit-box-shadow: 10px 10px 5px grey;
-          box-shadow: 10px 10px 5px grey;
+  width: 50%;
   border: 0.01px solid #231f20;
+}
+
+.part1 {
+  margin-right: 2rem;
 }
 
 .part1text, .part2text {
@@ -455,6 +456,31 @@ li {
 
 .ball:hover {
   background: #231f20;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 footer {
