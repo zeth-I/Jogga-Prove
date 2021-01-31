@@ -1,0 +1,382 @@
+//Large-notebook
+@media only screen and (min-width: 1440px) {
+    .yellow-header, section, footer, main{
+        width: 90rem;
+    }
+
+    input{
+        width: 19rem;
+        height: 2.4rem;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 84rem;
+        align-items: center;
+    }
+
+    button{
+        margin-top: 1rem;
+    }
+
+    footer img{
+        padding-right: 3rem;
+    }
+
+    footer p{
+        padding-left: 1rem;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+
+    .yellow-header, section, footer, main, .arrow-footer{
+        width: 48rem;
+    }
+
+    .yellow-header{
+        height: auto;
+    }
+
+    .yellow-container{
+        justify-content: center;
+        padding-left: 7rem;
+    }
+    
+    .responsive-bg{
+        display: inline-flex;
+    }
+
+    .yellow-bg{
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .contact-buttons{
+        display: none;
+    }
+    
+    
+    .white-box{
+        width: 100%;
+        height: 28rem;
+        box-shadow: none;
+        border-radius: 0;
+        background: #fff;
+        padding-bottom: 2rem;
+    }
+
+    input{
+        width: 22rem;
+        height: 3rem;
+    }
+
+    .responsivec img{
+        width: 100%;
+    }
+
+    .black-box{
+        border-radius: 0;
+    }
+
+    .responsive{
+        display: flex;
+        width: 4rem;
+    }
+
+
+    .large-container{
+        flex-direction: column;
+    }
+
+    .black-box-p{
+        width: 32rem;
+        height: 8rem;
+    }
+
+    .responsivec{
+        display: flex;
+    }
+
+    .info-text{
+        width: 48rem;
+        height: auto;
+        padding: 2rem;
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .info-text p{
+        padding: 0;
+    }
+
+    .space-container{
+        margin-top: 0;
+    }
+
+    .card{
+        padding: 1rem;
+    }
+
+    .slideshow{
+        margin: 0;
+        padding: 2rem;
+        width: 48rem;
+    }
+
+    .part1{
+        width: 100%;
+        margin: 0;
+    }
+
+    .dot{
+        width: 48rem;
+        margin: 0;
+    }
+    
+    .part2{
+        display: none;
+    }
+
+    .service{
+        margin-top: 3rem;
+        margin-left: 0rem;
+        padding: 3rem 2.5rem;
+        width: 48rem;
+    }
+
+    .specialist{
+        width: 48rem;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 1rem;
+    }
+    .specialist h2{
+        padding-top: 1rem;
+    }
+
+    .spe-container{
+        margin: 2rem;
+    }
+
+    .empresas{
+        display: none;
+    }
+
+    .empresas-mobile{
+        display: flex;
+        width: 100%;
+    }
+
+    .digital-conquest{
+        background: #fff;
+        margin: 0;
+        padding: 0;
+        color: $black;
+        
+        display: flex;
+        flex-direction: column;
+        width: 48rem;
+        height: auto;
+    }
+
+    .img-couple{
+    padding: 2rem;
+    width: 100%;
+    }
+
+    .list{
+        width: 48rem;
+        display: flex;
+        flex-direction: column;
+        margin-top: 6rem;
+        padding-left: 4rem;
+        justify-content: center;
+    }
+
+    .last-blackbox{
+        margin-top: 3rem;
+        margin-left: 0rem;
+        padding: 0rem 0rem;
+        flex-direction: column;
+        color: $white;
+        display: inline-flex;
+
+        align-items: initial;
+
+        width: 48rem;
+        height: 12.5rem;
+
+        padding: 3rem 2.5rem;
+    }
+
+    .last-blackbox img{
+        padding-left: 0;
+        padding-top: 1rem;
+    }
+
+    footer{
+        flex-direction: column;
+        padding: 1rem;
+        margin: 0;
+        justify-content: center;
+    }
+
+    footer p{
+        padding-bottom: 2rem;
+    }
+
+    footer img{
+        padding: 0;
+    }
+
+}
+
+@media only screen and (max-width: 320px){
+    .yellow-header, section, footer, main, .arrow-footer, 
+    .info-text, .last-blackbox, .dot, .specialist, .slideshow,
+    .service, .black-box-p, .responsive-bg, .digital-conquest, .space-container{
+        width: 20rem;
+        font-size: 12px;
+    }
+
+    .yellow-container{
+        padding-left: 0;
+        padding-right: 0;
+        justify-content: center;
+    }
+
+    .yellow-container img{
+        padding-left: 4rem;
+        width: 70%;
+    }
+
+    .space-container{
+        grid-template-columns: 1fr 1fr;
+        margin-top: 4rem;
+    }
+    
+    .digital-conquest h2{
+        padding: 1rem;
+    }
+    
+    .img-couple{
+        padding: 1rem;
+    }
+
+    .header-text{
+        width: auto;
+        height: auto;
+        padding: 0;
+    }
+
+    .header-text img{
+        padding: 0;
+        width: 10rem;
+    }
+
+    .responsive-bg img{
+        width: 50%;
+        height: 50%;
+    }
+
+    .header-text p{
+        display: none;
+    }
+
+    .part1{
+        flex-direction: column;
+        width: 17rem;
+    }
+
+    .service{
+        margin-top: 0;
+    }
+
+    .slideshow{
+        padding: 1rem;
+    }
+
+    .part1{
+        box-shadow: none;
+        margin-left: 0.5rem;
+    }
+
+    .part1 img{
+        width: auto;
+        height: auto;
+    }
+
+    .spe-container{
+        flex-direction: column;
+        align-items: initial;
+        justify-content: initial;
+    }
+
+    .spe-container img{
+        padding-top: 1rem;
+        padding-left: 0;
+    }
+
+    input{
+        width: 16rem;
+    }
+    
+    button{
+        width: 7.5rem;
+    }
+
+    .img-couple img{
+        display: none;
+    }
+    .list{
+        display: none;
+    }
+
+    footer p{
+        font-size: 1rem;
+    }
+
+    .ocult{
+        background: $gray;
+        color: $white;
+        display: block;
+        padding: 1rem;
+    }
+
+    .responsivec{
+        display: flex;
+        cursor: pointer;
+    }
+
+    .mobile-gray{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding: 1rem;
+        width: 18rem;
+        height: 4rem;
+        background: $gray;
+        color: $white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .mobile-img{
+        padding-top: 3.5rem;
+        width: 100%;
+    }
+
+    .mobile-img img{
+        width: 9rem;
+    }
+}
+
+
+
+

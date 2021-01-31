@@ -1,0 +1,197 @@
+// Section
+section{
+    background: $white;
+    width: 84rem;
+    height: auto;
+}
+
+.large-container{
+    display: flex;
+}
+
+.black-box-p{
+    background: $black;
+    width: 21.875rem;
+    height: 13.75rem;
+    color: $yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black-box-p h2{
+    display: flex;
+    text-align: center;
+}
+
+.info-text p{
+    font-size: 1rem;
+    width: 43.75rem;
+    height: 6.25rem;
+
+    padding-top: 8rem;
+    padding-left: 3rem;
+}
+
+.info-text{
+    padding-top: 0.688rem;
+}
+
+
+.space-container{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.card{
+    padding: 3rem;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.card p{
+    padding-top: 0.2rem;
+    width: 7.5rem;
+    text-align: center;
+}
+
+// White Section
+.service{
+    background: $yellow;
+    color: $black;
+    margin-top: 3.5rem;
+    margin-left: 4rem;
+    padding: 3rem 2.5rem;
+    width: 65.625rem;
+    height: auto;
+}
+
+.service p{
+    padding-top: 0.6rem;
+}
+
+//Specialist
+.specialist{
+    background: $white;
+    margin-top: 3.5rem;
+    margin-left: 4rem;
+    padding: 3rem 2.5rem;
+
+    color: $black;
+
+    width: 65.625rem;
+    height: auto;
+}
+
+.specialist h2{
+    text-align: center;
+}
+
+.specialist {
+    width: 100% 68.75rem;
+    height: auto;
+}
+
+.yellow{
+    color: $yellow;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: -3.3rem;
+}
+
+.spe-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border: rgba(0, 0, 0, .7) solid 1px;
+}
+
+.empresas-mobile{
+    display: none;
+}
+
+.empresas{
+    width: 65.625rem;
+    height: auto;
+    padding-bottom: 1rem;
+    padding-right: 3.5rem; 
+    padding-top: 1rem;
+}
+
+.spe-container img{
+    padding-left: 2rem;
+}
+
+
+//Conquiste mais clientes
+.digital-conquest{
+    background: #fff;
+    margin-top: 3.5rem;
+    margin-left: 4rem;
+    padding: 3rem 0rem;
+    color: $black;
+
+    width: 65.625rem;
+    height: auto;
+}
+
+//image-couple
+.img-couple{
+    width: 50%;
+    display: inline-block;
+}
+
+.img-couple p{
+    padding-bottom: 1rem;
+}
+
+.img2{
+    margin-left: -13rem;
+    margin-bottom: -4rem;
+}
+
+//Lista
+.list{
+    display: inline-block;
+    float: right;
+    width: 50%;
+}
+
+.list p{
+    padding-bottom: 1rem;
+}
+
+li{
+    list-style-image: url(../img/V.svg) ;
+    padding-bottom: 1rem;
+}
+
+.mobile-gray{
+    display: none;
+}
+
+//Last-black-box
+.last-blackbox{
+    background: $black;
+    margin-top: 3.5rem;
+    margin-left: 4rem;
+    padding: 3rem 2.5rem;
+
+    color: $white;
+
+    width: 65.625rem;
+    height: 12.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.last-blackbox img{
+    padding-left: 3rem;
+}

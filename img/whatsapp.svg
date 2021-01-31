@@ -1,0 +1,20 @@
+<svg id="Grupo_3550" data-name="Grupo 3550" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="171.891" height="61" viewBox="0 0 171.891 61">
+  <defs>
+    <filter id="Elipse_11966" x="1.891" y="3" width="58" height="58" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#0c4a2f" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Caminho_3970" data-name="Caminho 3970" d="M25.116,0H146.774c13.871,0,25.116,12.76,25.116,28.5S160.646,57,146.774,57H25.116C11.245,57,0,44.24,0,28.5S11.245,0,25.116,0Z" fill="#03c969"/>
+  <g id="Grupo_3549" data-name="Grupo 3549" transform="translate(10.927 8.522)">
+    <g transform="matrix(1, 0, 0, 1, -10.93, -8.52)" filter="url(#Elipse_11966)">
+      <circle id="Elipse_11966-2" data-name="Elipse 11966" cx="20" cy="20" r="20" transform="translate(10.89 9)" fill="#00e676"/>
+    </g>
+    <path id="whatsapp3" d="M21.4,3.6A12.338,12.338,0,0,0,.353,12.266,12.2,12.2,0,0,0,2,18.4L.25,24.755,6.784,23.05a12.36,12.36,0,0,0,5.89,1.493h0A12.316,12.316,0,0,0,25.006,12.275,12.162,12.162,0,0,0,21.4,3.6ZM12.68,22.473h0a10.268,10.268,0,0,1-5.212-1.422l-.373-.222L3.21,21.841l1.032-3.762L4,17.693a10.228,10.228,0,1,1,8.683,4.778Zm5.62-7.636c-.309-.153-1.822-.895-2.1-1s-.488-.153-.693.153-.8,1-.975,1.2-.359.23-.667.077a8.421,8.421,0,0,1-2.476-1.521,9.252,9.252,0,0,1-1.713-2.123c-.179-.309,0-.457.135-.626a8.672,8.672,0,0,0,.77-1.048.561.561,0,0,0-.026-.537c-.077-.153-.693-1.662-.949-2.276-.248-.6-.5-.517-.693-.526S8.523,6.6,8.317,6.6a1.134,1.134,0,0,0-.821.384A3.431,3.431,0,0,0,6.418,9.545a5.948,5.948,0,0,0,1.258,3.171,13.7,13.7,0,0,0,5.261,4.628,17.683,17.683,0,0,0,1.756.646,4.242,4.242,0,0,0,1.94.124,3.176,3.176,0,0,0,2.079-1.457A2.55,2.55,0,0,0,18.89,15.2c-.077-.128-.282-.2-.59-.358Zm0,0" transform="translate(7.964 7.601)" fill="#fff" fill-rule="evenodd"/>
+  </g>
+  <text id="Whatsapp" transform="translate(57.891 41)" fill="#fff" font-size="17" font-family="Quicksand-Bold, Quicksand" font-weight="700"><tspan x="0" y="0">WHATSAPP</tspan></text>
+  <text id="Fale_conosco" data-name="Fale conosco" transform="translate(57.891 21)" fill="#fff" font-size="12" font-family="Quicksand-Bold, Quicksand" font-weight="700" letter-spacing="-0.025em"><tspan x="0" y="0">FALE CONOSCO</tspan></text>
+</svg>

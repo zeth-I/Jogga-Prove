@@ -1,0 +1,77 @@
+.slideshow{
+    margin-top: 1.5rem;
+    margin-left: 4rem;
+    padding: 3rem 2.5rem;
+    width: 65.625rem;
+    height: auto;
+    display: flex;
+}
+
+.part1, .part2{
+    display: inline-flex;
+    float: right;
+    width: 34rem;
+    margin-right: 1rem;
+    box-shadow: 10px 10px 5px grey;
+    border: 0.01px solid $black;
+}
+
+.part1text, .part2text{
+    padding: .5rem;
+}
+
+.part1text h3{
+    padding-bottom: .8rem;
+}
+
+.part2text h3{
+    padding-bottom: .8rem;
+}
+
+.part1 img{
+    width: 13.8rem;
+    height: 13.8rem;
+}
+
+.part2 img{
+    width: 13.8rem;
+    height: 13.8rem;
+}
+
+.slideshow img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.balls{
+    width: 65.625rem;
+    height: auto;
+    text-align: center;
+}
+
+.dot{
+    margin-left: 4rem;
+    width: 65.625rem;
+    height: 6.25rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+.ball{
+    cursor: pointer;
+    height: 1rem;
+    width: 1rem;
+    margin-top: 2.5rem;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.ball:hover{
+    background: $black;
+}

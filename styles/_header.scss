@@ -1,0 +1,61 @@
+//Header
+.yellow-header{
+    background: $low-yellow;
+    width: 84rem;
+    height: auto;
+}
+
+.yellow-bg{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.yellow-container{
+    width: 100%;
+    height: auto;
+    padding-top: 1.5rem;
+    padding-left: 10rem;
+    padding-bottom: 2rem;
+    padding-right: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-text{
+    width: 26.875rem;
+    height: 39.375rem;
+    padding-top: 6rem;
+}
+
+.header-text h1{
+    font-weight: bold;
+}
+
+.header-text p{
+    font-weight: 600;
+    padding-top: 2.5rem;
+    padding-bottom: 5.5rem ;
+}
+
+.header-text img{
+    padding-top: 4.8rem;
+}
+
+.contact-buttons{
+    padding-right: .5rem;
+}
+
+.responsive-bg{
+    display: inline-flex;
+}
+
+.responsivec{
+    display: none;
+}
+
+.ocult{
+    display: none;
+}
