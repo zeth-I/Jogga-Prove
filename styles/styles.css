@@ -182,6 +182,16 @@ section {
           align-items: center;
 }
 
+.h2-box {
+  width: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .black-box-p h2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -210,7 +220,10 @@ section {
 }
 
 .card {
-  padding: 3rem;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 2rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -580,6 +593,16 @@ footer img {
   }
   .contact-buttons {
     display: none;
+  }
+  .h2-box {
+    width: 21.875rem;
+    padding-right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .white-box {
     width: 100%;

@@ -19,6 +19,12 @@ section{
     align-items: center;
 }
 
+.h2-box{
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
 .black-box-p h2{
     display: flex;
     text-align: center;
@@ -45,7 +51,10 @@ section{
 }
 
 .card{
-    padding: 3rem;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
     align-items: center;
     justify-content: center;
     justify-items: center;
