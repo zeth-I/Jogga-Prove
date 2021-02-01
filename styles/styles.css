@@ -192,13 +192,6 @@ section {
           justify-content: center;
 }
 
-.black-box-p h2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-}
-
 .info-text p {
   font-size: 1rem;
   width: 43.75rem;
