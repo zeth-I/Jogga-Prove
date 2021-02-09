@@ -371,61 +371,44 @@ li {
 }
 
 .slideshow {
-  margin-top: 1.5rem;
   margin-left: 4rem;
   padding: 3rem 2.5rem;
   width: 65.625rem;
   height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.part1, .part2 {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  float: right;
-  width: 50%;
-  border: 0.01px solid #231f20;
-}
-
-.part1 {
-  margin-right: 2rem;
-}
-
-.part1text, .part2text {
-  padding: .5rem;
-}
-
-.part1text h3 {
-  padding-bottom: .8rem;
-}
-
-.part2text h3 {
-  padding-bottom: .8rem;
-}
-
-.part1 img {
-  width: 13.8rem;
-  height: 13.8rem;
-}
-
-.part2 img {
-  width: 13.8rem;
-  height: 13.8rem;
-}
-
-.slideshow img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.part1, .part2 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 50%;
+  border: 1px solid #231f20;
+}
+
+.part2 {
+  margin-left: 2rem;
+}
+
+.part1text, .part2text {
+  padding: .5rem;
+}
+
+.part1text h3, .part2text h3 {
+  padding-bottom: .8rem;
+}
+
+.part1 img, .part2 img {
+  width: 13.5rem;
+  height: 100%;
 }
 
 .balls {
@@ -462,31 +445,6 @@ li {
 
 .ball:hover {
   background: #231f20;
-}
-
-.fade {
-  -webkit-animation-name: fade;
-          animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {
-    opacity: .4;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fade {
-  from {
-    opacity: .4;
-  }
-  to {
-    opacity: 1;
-  }
 }
 
 footer {
@@ -527,8 +485,11 @@ footer img {
 }
 
 @media only screen and (min-width: 1440px) {
-  .yellow-header, section, footer, main {
+  .yellow-header, section, footer, main, body {
     width: 90rem;
+  }
+  .space-container {
+    padding-left: 5rem;
   }
   input {
     width: 19rem;
@@ -542,7 +503,7 @@ footer img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 84rem;
+    width: 90rem;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;

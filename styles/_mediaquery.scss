@@ -1,7 +1,11 @@
 //Large-notebook
 @media only screen and (min-width: 1440px) {
-    .yellow-header, section, footer, main{
+    .yellow-header, section, footer, main, body{
         width: 90rem;
+    }
+
+    .space-container{
+        padding-left: 5rem;
     }
 
     input{
@@ -12,7 +16,7 @@
     main{
         display: flex;
         flex-direction: column;
-        width: 84rem;
+        width: 90rem;
         align-items: center;
     }
 
